@@ -6,12 +6,15 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgxChartsModule } from '@swimlane/ngx-charts';
 
 import {ComboChartComponent, ComboSeriesVerticalComponent} from './combo-chart'
+import {GroupedBarLineChartComponent, GroupedBarLineChartSeriesVerticalComponent} from './grouped-bar-line-chart'
 
 @NgModule({
   declarations: [
     AppComponent,
     ComboChartComponent, 
-    ComboSeriesVerticalComponent
+    ComboSeriesVerticalComponent,
+    GroupedBarLineChartComponent,
+    GroupedBarLineChartSeriesVerticalComponent
   ],
   imports: [
     BrowserModule,
